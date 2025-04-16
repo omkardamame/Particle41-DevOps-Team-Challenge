@@ -83,13 +83,17 @@ appuser
 
 # 🧹 Cleanup
 
+Stop the docker container
 ```bash
 docker stop simple-time-service 
 ```
 
+Remove the docker container
 ```bash
 docker rm simple-time-service
 ```
+
+Remove the `simpletimeservice` docker image
 ```bash
 docker rmi simpletimeservice
 ```
