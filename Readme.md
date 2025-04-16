@@ -12,7 +12,7 @@ A minimal Flask-based microservice that returns the current timestamp and the re
 ## 📦My docker image for reference
 
 ```bash
-docker run -dit --name simple-time-service -p 5000:5000 omkardamame/simpletimeservice:latest
+docker run -dit --name simple-time-service -p 5000:5000 --memory="128m" --cpus="0.5" omkardamame/simpletimeservice:latest
 ```
 
 ## 🖥️ Sample JSON Output
