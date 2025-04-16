@@ -75,6 +75,12 @@ appuser
 - Final size: ~69MB
 - No root access inside the container
 
+## 📦 Pull my image for reference
+
+```bash
+docker run -dit --name simple-time-service -p 5000:5000 omkardamame/simpletimeservice
+```
+
 # 🧹 Cleanup
 
 ```bash
