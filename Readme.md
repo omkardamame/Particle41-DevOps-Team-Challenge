@@ -33,13 +33,13 @@ docker run -dit --name simple-time-service -p 5000:5000 --memory="128m" --cpus="
 ### 🐳 Build the Docker Image
 
 ```bash
-docker build -t simple-time-service .
+docker build -t simpletimeservice .
 ```
 
 ### 📦 Run the Container
 
 ```bash
-docker run -dit --name simple-time-service -p 5000:5000 simple-time-service
+docker run -dit --name simple-time-service -p 5000:5000 simpletimeservice
 ```
 
 > The service will now be available at: `http://localhost:5000/`
@@ -87,8 +87,11 @@ appuser
 docker stop simple-time-service 
 ```
 
-```
+```bash
 docker rm simple-time-service
+```
+```bash
+docker rmi simpletimeservice
 ```
 
 # 📜 License
