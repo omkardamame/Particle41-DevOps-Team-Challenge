@@ -9,12 +9,18 @@ A minimal Flask-based microservice that returns the current timestamp and the re
 - Lightweight, minimal Docker image.
 - Runs as a non-root user for better security.
 
+## 📦My docker image for reference
+
+```bash
+docker run -dit --name simple-time-service -p 5000:5000 omkardamame/simpletimeservice:latest
+```
+
 ## 🖥️ Sample JSON Output
 
 ```json
 {
   "timestamp": "2025-04-14T15:30:00Z",
-  "ip": "172.17.0.1"
+  "ip": "your_ip_address_here"
 }
 ```
 
@@ -74,12 +80,6 @@ appuser
 - Base image: `python:3.11-alpine`
 - Final size: ~69MB
 - No root access inside the container
-
-## 📦 Pull my image for reference
-
-```bash
-docker run -dit --name simple-time-service -p 5000:5000 omkardamame/simpletimeservice
-```
 
 # 🧹 Cleanup
 
