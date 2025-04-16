@@ -91,6 +91,6 @@ docker stop simple-time-service
 docker rm simple-time-service
 ```
 
-## 📜 License
+# 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
