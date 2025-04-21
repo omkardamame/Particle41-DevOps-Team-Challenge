@@ -80,4 +80,4 @@ This will remove the VPC, ECS services, ALB, and all associated resources.
 
 # 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/omkardamame/Particle41-DevOps-Team-Challenge/blob/main/LICENSE).
