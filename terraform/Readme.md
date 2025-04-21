@@ -7,7 +7,7 @@ This repository contains the Terraform code to create a **VPC**, **ECS Fargate**
 - **Terraform** installed
 - **AWS IAM role** attached to your EC2 instance with sufficient permissions to manage AWS resources (e.g., EC2, VPC, ECS, ALB)
   
-  If you're using an IAM role attached to the EC2 instance, make sure your EC2 instance has the following policies:
+  If you're using an IAM role attached to the EC2 instance, make sure your IAM role has the following policies:
   - `AmazonEC2FullAccess`
   - `AmazonECS_FullAccess`
   - `AmazonVPCFullAccess`
