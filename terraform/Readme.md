@@ -12,6 +12,7 @@ This repository contains the Terraform code to create a **VPC**, **ECS Fargate**
   - `AmazonECS_FullAccess`
   - `AmazonVPCFullAccess`
   - `ElasticLoadBalancingFullAccess`
+  - `IAMFullAccess`
 
 ## 📦 How to Deploy
 
