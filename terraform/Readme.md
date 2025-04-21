@@ -77,3 +77,7 @@ terraform destroy
 ```
 
 This will remove the VPC, ECS services, ALB, and all associated resources.
+
+# 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
