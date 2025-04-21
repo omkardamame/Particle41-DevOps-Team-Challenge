@@ -56,7 +56,7 @@ terraform apply
 output "alb_dns_name"
 ```
 
-    Example URL: `http://simple-alb-1626330895.ap-south-1.elb.amazonaws.com/`
+    Example URL: http://simple-alb-1626330895.ap-south-1.elb.amazonaws.com/
 
 ## 🧑‍💻 How to Authenticate to AWS
 
