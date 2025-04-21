@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def time_service():
     timestamp = datetime.utcnow().isoformat() + "Z"
-    ip = request.remote_addr
+    ip = request.headers.get('X-Forwarded-For', request.remote_addr)
 
     response_data = {
         "timestamp": timestamp,
