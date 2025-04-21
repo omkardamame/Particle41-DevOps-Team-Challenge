@@ -18,8 +18,8 @@ This repository contains the Terraform code to create a **VPC**, **ECS Fargate**
 1. **Clone this repository**:
 
 ```bash
-git clone https://github.com/omkardamame/Particle41-DevOps-Team-Challenge/terraform
-cd omkardamame/Particle41-DevOps-Team-Challenge/terraform
+git clone https://github.com/omkardamame/Particle41-DevOps-Team-Challenge/
+cd Particle41-DevOps-Team-Challenge/terraform
 ```
 
 2. **Initialize Terraform**:
