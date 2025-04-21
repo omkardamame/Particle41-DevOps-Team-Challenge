@@ -81,7 +81,7 @@ appuser
 - Final size: ~69MB
 - No root access inside the container
 
-# 🧹 Cleanup
+# 🧹 Clean-up
 
 Stop the docker container
 ```bash
