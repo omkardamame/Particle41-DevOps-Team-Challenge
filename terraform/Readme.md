@@ -24,7 +24,7 @@ cd omkardamame/Particle41-DevOps-Team-Challenge/terraform
 
 2. **Initialize Terraform**:
 
-    Initialize Terraform with the following command. This will install the necessary provider plugins.
+Initialize Terraform with the following command. This will install the necessary provider plugins.
 
 ```bash
 terraform init
@@ -32,7 +32,7 @@ terraform init
 
 3. **Create a Plan**:
 
-    Generate an execution plan, which shows what actions Terraform will take to create the infrastructure.
+Generate an execution plan, which shows what actions Terraform will take to create the infrastructure.
 
 ```bash
 terraform plan
@@ -40,22 +40,24 @@ terraform plan
 
 4. **Apply the Plan**:
 
-    Apply the plan to create the infrastructure and deploy the Docker container.
+Apply the plan to create the infrastructure and deploy the Docker container.
 
 ```bash
 terraform apply
 ```
+
 You'll be prompted to confirm the action. Type `yes` to proceed.
 
 5. **Access the Service**:
 
-    After the deployment is complete, Terraform will output the DNS name of the **Application Load Balancer (ALB)**. Use this DNS name to access the application.
+After the deployment is complete, Terraform will output the DNS name of the **Application Load Balancer (ALB)**. Use this DNS name to access the application.
 
 ```bash
 output "alb_dns_name"
 ```
-
-    Example URL: http://simple-alb-1626330895.ap-south-1.elb.amazonaws.com/
+```
+Example URL: http://simple-alb-1626330895.ap-south-1.elb.amazonaws.com/
+```
 
 ## 🧑‍💻 How to Authenticate to AWS
 
