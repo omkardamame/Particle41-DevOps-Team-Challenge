@@ -45,8 +45,7 @@ terraform plan
 ```bash
 terraform apply
 ```
-
-    You'll be prompted to confirm the action. Type `yes` to proceed.
+You'll be prompted to confirm the action. Type `yes` to proceed.
 
 5. **Access the Service**:
 
